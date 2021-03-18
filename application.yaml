@@ -8,3 +8,10 @@ eureka:
 logging:
   level:
     root: info
+    
+---
+spring:
+    profiles: dev
+ logging:
+  level:
+    root: debug   
