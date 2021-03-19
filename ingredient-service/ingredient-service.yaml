@@ -8,7 +8,7 @@ eureka:
       
 logging:
   level:
-    root: DEBUG
+    root: INFO
     
 greeting:
-  message: Hello Alexey
+  message: Hello IVAN
