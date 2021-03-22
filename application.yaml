@@ -11,4 +11,4 @@ logging:
     root: INFO
  
 greeting:
-  message: Hello IVAN
+  message: Hello Alexey
