@@ -8,7 +8,16 @@ eureka:
       
 logging:
   level:
-    root: DEBUG
+    root: INFO
  
 greeting:
   message: Hello And NAtalia
+  
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
