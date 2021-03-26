@@ -7,7 +7,7 @@ eureka:
   instance:
     metadata-map:
       user.name: admin
-      user.password: admin
+      user.password: admin1
 
       
 logging:
