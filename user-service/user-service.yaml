@@ -3,7 +3,7 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://${discovery.server.name}:${discovery.server.password}@/localhost:8761/eureka/
+      defaultZone: http://admin:psw@localhost:8761/eureka/
       
 logging:
   level:
